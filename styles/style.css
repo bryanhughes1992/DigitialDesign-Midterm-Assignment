@@ -12,17 +12,18 @@ html, body {
 }
 
 .header-container {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
 }
 
 .nav-container {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     background-color: #202228;
     display: grid;
     grid-template-columns: 40% 60%;
 }
+
 
 .page-title-container {
     width: 40vw;
@@ -37,6 +38,7 @@ html, body {
     color: #19c17e;
 }
 
+/* HOMEGREENERY TITLE */
 .page-title {
     font-family: 'Lato', sans-serif;
     width: 40vw;
@@ -50,7 +52,8 @@ html, body {
 .ul-container {
     width: 60vw;
     height: 15vh;
-    margin: 0 0;
+    margin: 0 -2em;
+    padding: 0 0;
     text-align: right;
 }
 
@@ -67,8 +70,7 @@ html, body {
 }
 
 .nav-links {
-    font-family: 'Open-sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     padding: 0 1.5em;
     text-decoration: none;
@@ -78,11 +80,21 @@ html, body {
     color:#19c17e;
 }
 
+.btn-a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.btn-a:hover {
+    color: #fff;
+}
+
 .sign-in {
-    margin: 0 1.5em;
+    margin: 0;
     padding: 1em 1.5em;
     background-color: #19c17e;
-    color: #000;
     border: none;
     border-radius: 1em;
 }
@@ -111,5 +123,94 @@ main {
     font-size: 6em;
     word-wrap: normal;
     text-shadow: 1px 2px 0 #000;
+}
 
+.section-two {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.potted-plant-container {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.potted-plant-h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #397153;
+}
+
+.potted-plant-img {
+    width: 100%;
+}
+
+.list-of-reasons {
+    margin: 0;
+    width: 80%;
+    word-wrap: normal;
+    font-size: 1.1em;
+}
+
+.reasons {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.register-container {
+    width: 100%;
+    height:
+}
+
+.reg-h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: #397153;
+}
+
+.reg {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+.plant-resources {
+    color: #397153;
+}
+
+.plant-resources:hover {
+    color: #01a765;
+}
+
+.plant-resources:visited {
+    color: #397153;
+}
+
+.create-account {
+    color: #397153;
+}
+
+.create-account:hover {
+    color: #01a765;
+}
+
+.register {
+    text-align: center;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: 1em 30% 0 40%;
 }
