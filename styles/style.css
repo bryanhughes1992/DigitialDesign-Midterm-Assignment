@@ -50,6 +50,7 @@ html, body {
     color: #fff;
 }
 
+/*NAV LI */
 .ul-container {
     width: 60vw;
     height: 15vh;
@@ -58,7 +59,7 @@ html, body {
     text-align: right;
 }
 
-
+/*NAV UNORDERED LIST*/
 .nav-ul {
     width: 60vw;
     height: 15vh;
@@ -66,6 +67,7 @@ html, body {
     padding: 1em 0;
 }
 
+/*NAV LI'S*/
 .list-of-links {
     display: inline-block;
 }
@@ -81,18 +83,19 @@ html, body {
     color:#19c17e;
 }
 
-.btn-a {
+/*BUTTON ANCHOR */
+.sign-in-a {
     color: #000;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
-.btn-a:hover {
+.sign-in-a:hover {
     color: #fff;
 }
 
-.sign-in {
+.sign-in-btn {
     margin: 0;
     padding: 1em 1.5em;
     background-color: #19c17e;
@@ -104,6 +107,8 @@ main {
     width: 96vw;
     margin: 0 auto;
 }
+
+/*SECTION 1*/
 
 .fern-container {
     width: 100%;
@@ -125,6 +130,8 @@ main {
     word-wrap: normal;
     text-shadow: 1px 2px 0 #000;
 }
+
+/*SECTION 2*/
 
 .section-two {
     width: 100%;
@@ -204,7 +211,7 @@ main {
     color: #01a765;
 }
 
-.register {
+.register-btn {
     text-align: center;
     border: none;
     border-radius: 0.5em;
@@ -216,10 +223,12 @@ main {
     margin: 1em 30% 0 40%;
 }
 
-.register:hover {
+.register-btn:hover {
     background-color: #19c17e;
     color: #fff;
 }
+
+/*SECTION THREE*/
 
 .section-three {
     width: 100%;
@@ -244,6 +253,7 @@ main {
     justify-content: center;
 }
 
+/*SEEDS TITLE*/
 .seeds {
     text-align: center;
     font-family: 'Lato', sans-serif;
