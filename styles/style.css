@@ -272,6 +272,10 @@ main {
     margin-bottom: 5em;
 }
 
+.seeds-btn:hover {
+    background-color: #19c17e;
+}
+
 .col-two {
     display: grid;
     grid-template-rows: auto;
@@ -306,6 +310,10 @@ main {
     color: #fff;
 }
 
+.plant-btn:hover {
+    background-color: #19c17e;
+}
+
 .col-three {
     display: grid;
     grid-template-rows: auto;
@@ -338,6 +346,10 @@ main {
     border-radius: 0.5em;
     background-color: #000;
     color: #fff;
+}
+
+.gardening-btn:hover {
+    background-color: #19c17e;
 }
 
 /* SECTION FOUR */
@@ -401,7 +413,6 @@ fieldset {
 
 .check {
     margin-left: 3.3em;
-
 }
 
 .label {
@@ -419,4 +430,64 @@ fieldset {
     border-radius: 0.5em;
     background-color: #000;
     color: #fff;
+}
+
+.subscribe-btn:hover {
+    color: #19c17e;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+}
+
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.foot-title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin: 1.5em 1.5em;
+}
+
+.foot-links-ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 2.5em;
+    padding: 0 1.5em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.foot-links-li {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-links-li:visited {
+    color: #fff;
+}
+
+.foot-links-a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-links-a:hover {
+    color: #19c17e;
+}
+
+.copyright-container {
+    font-family: 'Open Sans', sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    border-top: solid 1px #19c17e;
+    padding: 0.2em 0;
 }
