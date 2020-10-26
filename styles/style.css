@@ -262,13 +262,14 @@ main {
 .seeds-btn {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
-    margin: 0.2em auto;
+    margin: 1em auto;
     padding: 0.5em 0.5em;
     width: 50%;
     border: none;
     border-radius: 0.5em;
     background-color: #000;
     color: #fff;
+    margin-bottom: 5em;
 }
 
 .col-two {
@@ -292,10 +293,11 @@ main {
     font-family: 'Open Sans', sans-serif;
 }
 
-.plant-index {
+.plant-btn {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
-    margin: 0.2em auto;
+    margin: 1em auto;
+    margin-bottom: 5em;
     padding: 0.5em 0.5em;
     width: 50%;
     border: none;
@@ -328,9 +330,91 @@ main {
 .gardening-btn {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
-    margin: 0.2em auto;
+    margin: 1em auto;
+    margin-bottom: 5em;
     padding: 0.5em 0.5em;
     width: 50%;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #000;
+    color: #fff;
+}
+
+/* SECTION FOUR */
+
+.section-four {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    background-color: #19c17e;
+}
+
+.section-four-title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 2em 0 0.5em 0;
+    font-size: 1.3em;
+}
+
+.section-four-p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email-container {
+    text-align: center;
+    margin: 1em 2em;
+}
+
+.email-label {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.3em;
+}
+
+.email-input {
+    padding: 0.2em 10em 0.2em 0.1em;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.checkbox-container {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.interests-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-title {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+fieldset {
+    border: solid #fff 1px;
+    border-radius: 0.2em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.check {
+    margin-left: 3.3em;
+
+}
+
+.label {
+    margin-right: 3.3em;
+}
+
+.subscribe-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    margin: 2em auto 5em auto;
+    margin-bottom: 5em;
+    padding: 0.5em 0.5em;
+    width: 10%;
     border: none;
     border-radius: 0.5em;
     background-color: #000;
