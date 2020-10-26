@@ -13,48 +13,71 @@
         <link rel="stylesheet" type="text/css" href="styles/style.css">
     </head>
     <body>
+        <!--CONTAINER FOR ENTIRE PAGE-->
         <div class="page">
+            <!--HEADER CONTAINER-->
             <header class="header-container">
+                <!--NAV CONTAINER-->
                 <nav class="nav-container">
+                    <!--PAGE TITLE-->
                     <div class="page-title-container">
                         <h1 class="page-title">HOME<span class="greenery">GREENERY</span></h1>
                     </div>
+                    <!--NAVIGATION LINKS-->
                     <div class="ul-container">
                         <ul class="nav-ul">
+                            <!--HOME-->
                             <li class="list-of-links">
                                 <a class="nav-links" href="index.html">Home</a>
                             </li>
+                            <!--PLANTS-->
                             <li class="list-of-links">
                                 <a class="nav-links" href="index.html">Plants</a>
                             </li>
+                            <!--TIPS-->
                             <li class="list-of-links">
                                 <a class="nav-links" href="index.html">Tips</a>
                             </li>
+                            <!--RESOURCES-->
                             <li class="list-of-links">
                                 <a class="nav-links" href="index.html">Resources</a>
                             </li>
+                            <!--ABOUT-->
                             <li class="list-of-links">
                                 <a class="nav-links" href="index.html">About</a>
                             </li>
+                            <!--SIGN IN BUTTON-->
                             <button class="sign-in"><a class="btn-a" href="">Sign-In</a></button>
                         </ul>
                     </div>
                 </nav>
             </header>
+            <!--MAIN SECTION CONTAINER-->
             <main>
+                <!--CONTAINER FOR FERN IMAGE-->
                 <div class="fern-container">
+                    <!--FERN IMAGE-->
                     <img
                         class="fern-img"
                         alt="A background image of a potted fern"
                         src="images/ostrich-fern-cropped.jpg"
                     >
-                    <div class="text-on-fern">FIND YOUR GREEN THUMB</div>
+                    <!--TEXT OVER FERN IMAGE-->
+                    <div class="text-on-fern">
+                        FIND YOUR GREEN THUMB
+                    </div>
                 </div>
+                <!--SECTION TWO CONTAINER-->
                 <div class="section-two">
+                    <!--LEFT-SIDE MASTER CONTAINER-->
                     <div class="potted-plant-container">
+                        <!--LEFT SIDE HEADER-->
                         <h2 class="potted-plant-h2">WHY GROW PLANTS AT HOME?</h2>
+                        <!--CONTAINER FOR IMAGE AND LIST-->
                         <div class="side-by-side">
+                            <!--POTTED PLANT IMAGE-->
                             <img class="potted-plant-img" alt="Picture of a small indoor plant" src="images/potted-plant.jpg">
+                            <!--REASONS TO BUY PLANTS-->
                             <ul class="list-of-reasons">
                                 <li class="reasons">
                                     Spruce up your indoor space while cleaning the air at the same time
@@ -68,43 +91,68 @@
                             </ul>
                         </div>
                     </div>
+                    <!--RIGHT SIDE MASTER CONTAINER-->
                     <div class="register-container">
+                        <!--RIGHT SIDE HEADER-->
                         <div class="reg-h3">NEW TO GARDENING?</div>
+                        <!--RIGHT SIDE PARAGRAPH-->
                         <p class="reg">
                             No problem. Take advantage of our <a class="plant-resources" href="index.html">plant growing resources</a>.
                         </p>
+                        <!--RIGHT SIDE PARAGRAPH-->
                         <p class="reg">
                             <a href="index.html" class="create-account">Create an account</a> to get access to your own gardener's journal and garden-planning tools. Get customized planting charts.
                         </p>
+                        <!--REGISTER NOW BUTTON-->
                         <button class="register">Register now</button>
                     </div>
                 </div>
+                <!--SECTION THREE HEADING-->
                 <h4 class="find-h4">FIND WHAT YOU'RE LOOKING FOR</h4>
+                <!--CONTAINER FOR SECTION THREE-->
                 <div class="section-three">
+                    <!--COLUMN ONE CONTAINER-->
                     <div class="col-one">
+                        <!--SEEDS HEADER-->
                         <div class="seeds">SEEDS</div>
+                        <!--IMAGE OF SEEDS-->
                         <img class="seed-img" src="images/seedlings.jpg" alt="Soil and seeds in hands">
+                        <!--PARAGRAPH UNDER SEEDS IMAGE-->
                         <p class="seed-desc">Where to get seeds and how to store them.</p>
+                        <!--SEEDS BUTTON-->
                         <button class="seeds-btn">Learn about seeds</button>
                     </div>
+                    <!--COLUMN TWO CONTAINER-->
                     <div class="col-two">
+                        <!--COLUMN TWO HEADER-->
                         <div class="resource">PLANT RESOURCE</div>
+                        <!--COLUMN TWO IMAGE - OPEN BOOK-->
                         <img class="open-book" src="images/journal-book.jpg">
+                        <!--PARAGRAPH UNDER IMAGE-->
                         <p class="resource-p">Look up a plant growing info</p>
+                        <!--PLANT INDEX BUTTON-->
                         <button class="plant-btn">Plant index</button>
                     </div>
+                    <!--COLUMN THREE CONTAINER-->
                     <div class="col-three">
+                        <!--COLUMN THREE HEADER-->
                         <div class="growing-food">GROWING FOOD</div>
+                        <!--OUTDOOR GARDEN IMAGE-->
                         <img class="garden-img" src="images/veg-garden.jpg" alt="Outdoor Vegetable Garden">
                         <p class="garden-p">Learn about growing your own food</p>
+                        <!--BUTTON FOR FOOD GARDENING-->
                         <button class="gardening-btn">Food gardening</button>
                     </div>
                 </div>
+                <!--STAY UP TO DATE FORM CONTAINER-->
                 <div class="section-four">
+                    <!--STAY UP TO DATE HEADER-->
                     <div class="section-four-title">STAY UP TO DATE</div>
+                    <!--LITTLE PARAGRAPH-->
                     <div class="section-four-p">
                         Get the latest gardening articles and tips by subscribing to our newsletters.
                     </div>
+                    <!--INPUT FOR USER EMAIL-->
                     <div class="email-container">
                         <label for="email-input" class="email-label">
                             Email
@@ -115,46 +163,59 @@
                             placeholder="john.smith@example.com"
                         >
                     </div>
+                    <!--INTEREST CHECKBOXES -->
                     <div class="checkbox-container">
                         <form id="your-interests" class="interests-form">
                             <fieldset>
+                                <!--FORM TITLE - YOUR INTERESTS-->
                                 <legend class="form-title">
                                     Your Interests
                                 </legend>
+                                <!--CHECKBOX FOR TIPS-->
                                 <input
                                     type="checkbox"
                                     id="tips"
                                     class="check"
                                 >
+                                <!--TITLE FOR TIPS-->
                                 <label for="tips" class="label">
                                     Tips
                                 </label>
+                                <!--CHECKBOX FOR NEWS-->
                                 <input
                                     type="checkbox"
                                     id="news"
                                     class="check"
                                 >
+                                <!--TITLE FOR NEWS-->
                                 <label for="news" class="label">
                                     News
                                 </label>
+                                <!--CHECKBOX FOR TOOLS-->
                                 <input
                                     type="checkbox"
                                     id="tools"
                                     class="check"
                                 >
+                                <!--TITLE FOR TOOLS-->
                                 <label for="tools" class="label">Tools</label>
                             </fieldset>
                         </form>
-                        <button class="subscribe-btn">SUBSCRIBE NOW</button>
+                        <!--SUBSCRIBE BUTTON-->
+                        <button for="your-interests" class="subscribe-btn">SUBSCRIBE NOW</button>
                     </div>
                 </div>
             </main>
             <footer>
+                <!--FOOTER CONTAINER-->
                 <div class="footer-container">
-                    <div class="foot-col-one">
+                    <!--COL. 1 CONTAINER-->
+                    <div>
+                        <!--TITLE FOR COL. 1-->
                         <div class="foot-title">
                             PLANTS
                         </div>
+                        <!--COL 1. LINKS-->
                         <ul class="foot-links-ul">
                             <li class="foot-links-li">
                                 <a class="foot-links-a" href="">Plant index</a>
@@ -164,10 +225,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="foot-col-one">
+                    <!--COL. 2 CONTAINER-->
+                    <div>
+                        <!--COL. 2 TITLE-->
                         <div class="foot-title">
                             RESOURCES
                         </div>
+                        <!--COL. 2 LINKS-->
                         <ul class="foot-links-ul">
                             <li class="foot-links-li">
                                 <a class="foot-links-a" href="">Zone maps</a>
@@ -183,15 +247,20 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="foot-col-one">
+                    <!--COL. 3 CONTAINER-->
+                    <div>
+                        <!--COL. 3 TITLE-->
                         <div class="foot-title">
                             ABOUT
                         </div>
                     </div>
-                    <div class="foot-col-one">
+                    <!--COL. 4 CONTAINER-->
+                    <div>
+                        <!--COL. 4 TITLE-->
                         <div class="foot-title">
                             LEGAL
                         </div>
+                        <!--COL. 4 LINKS-->
                         <ul class="foot-links-ul">
                             <li class="foot-links-li">
                                 <a class="foot-links-a" href="">Terms and conditions</a>
@@ -202,6 +271,7 @@
                         </ul>
                     </div>
                 </div>
+                <!--COPYRIGHT CONTAINER-->
                 <div class="copyright-container">
                     &copy Copyright Homegreenery, 2020. All rights reserved. This is a fake website for HTTP5104.
                 </div>

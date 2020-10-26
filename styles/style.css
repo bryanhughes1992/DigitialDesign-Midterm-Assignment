@@ -11,6 +11,7 @@ html, body {
     height: 100%;
 }
 
+
 .header-container {
     width: 100%;
     height: 15vh;
@@ -168,7 +169,6 @@ main {
 
 .register-container {
     width: 100%;
-    height:
 }
 
 .reg-h3 {
@@ -461,7 +461,6 @@ footer {
     margin-bottom: 2.5em;
     padding: 0 1.5em;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .foot-links-li {
