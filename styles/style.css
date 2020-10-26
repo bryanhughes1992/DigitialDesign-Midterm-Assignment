@@ -12,7 +12,7 @@ html, body {
 }
 
 /**********
- * Header *
+ * HEADER *
  **********/
 
 .header-container {
@@ -117,9 +117,9 @@ main {
     margin: 0 auto;
 }
 
-/******************************
- * FERN SECTION (SECTION ONE) *
- *****************************/
+/*******************************************
+ * SECTION TWO - FERN IMAGE / TEXT OVERLAY *
+ *******************************************/
 
 .fern-container {
     width: 100%;
