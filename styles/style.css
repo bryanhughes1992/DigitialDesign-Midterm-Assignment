@@ -101,6 +101,8 @@ html, body {
 }
 
 .sign-in-btn {
+    display: inline-block;
+    list-style-type: none;
     margin: 0;
     padding: 1em 1.5em;
     background-color: #19c17e;
