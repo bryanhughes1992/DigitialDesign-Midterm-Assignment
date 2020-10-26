@@ -173,6 +173,7 @@ main {
 
 .reg-h3 {
     font-family: 'Lato', sans-serif;
+    padding: 1em 0 0 0;
     text-align: center;
     font-size: 1.5em;
     color: #397153;
@@ -213,4 +214,125 @@ main {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     margin: 1em 30% 0 40%;
+}
+
+.register:hover {
+    background-color: #19c17e;
+    color: #fff;
+}
+
+.section-three {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #defef1;
+}
+
+.find-h4 {
+    background-color:  #defef1;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    padding: 2em 0;
+}
+
+.col-one {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.seeds {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #397153;
+    padding-bottom: 1em;
+}
+
+.seed-img {
+    margin: 0 auto;
+}
+
+.seed-desc {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.seeds-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    margin: 0.2em auto;
+    padding: 0.5em 0.5em;
+    width: 50%;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #000;
+    color: #fff;
+}
+
+.col-two {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.resource {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #397153;
+    padding-bottom: 1em;
+}
+
+.open-book {
+    margin: 0 auto;
+}
+
+.resource-p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.plant-index {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    margin: 0.2em auto;
+    padding: 0.5em 0.5em;
+    width: 50%;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #000;
+    color: #fff;
+}
+
+.col-three {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.growing-food {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #397153;
+    padding-bottom: 1em;
+}
+
+.garden-img {
+    margin: 0 auto;
+}
+
+.garden-p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gardening-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    margin: 0.2em auto;
+    padding: 0.5em 0.5em;
+    width: 50%;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #000;
+    color: #fff;
 }
