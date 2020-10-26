@@ -480,11 +480,11 @@ fieldset {
  **********/
 
 footer {
-    background-color: #000;
+    background-color: #202228;
 }
 
 .footer-container {
-    background-color: #000;
+    background-color: #202228;
     color: #fff;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -530,7 +530,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     width: 95%;
     margin: 0 auto;
-    background-color: #000;
+    background-color: #202228;
     color: #fff;
     border-top: solid 1px #19c17e;
     padding: 0.2em 0;
