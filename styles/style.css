@@ -11,11 +11,18 @@ html, body {
     height: 100%;
 }
 
+/**********
+ * Header *
+ **********/
 
 .header-container {
     width: 100%;
     height: 15vh;
 }
+
+/**************
+ * NAVIGATION *
+ *************/
 
 .nav-container {
     width: 100%;
@@ -25,13 +32,11 @@ html, body {
     grid-template-columns: 40% 60%;
 }
 
-
 .page-title-container {
     width: 40vw;
     height: 15vh;
     margin: 1em 0.3em;
     padding: 0.75em 0.3em;
-
 }
 
 /*SPAN STYLE*/
@@ -103,12 +108,18 @@ html, body {
     border-radius: 1em;
 }
 
+/********
+ * BODY *
+ *******/
+
 main {
     width: 96vw;
     margin: 0 auto;
 }
 
-/*SECTION 1*/
+/******************************
+ * FERN SECTION (SECTION ONE) *
+ *****************************/
 
 .fern-container {
     width: 100%;
@@ -131,13 +142,17 @@ main {
     text-shadow: 1px 2px 0 #000;
 }
 
-/*SECTION 2*/
+/****************************************************
+ * SECTION TWO - WHY GROW PLANTS / NEW TO GARDENING *
+*****************************************************/
 
 .section-two {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+/*SECTION TWO - COLUMN ONE*/
 
 .potted-plant-container {
     margin: 0 0;
@@ -174,6 +189,8 @@ main {
     text-align: left;
 }
 
+/*SECTION TWO - COLUMN TWO*/
+
 .register-container {
     width: 100%;
 }
@@ -186,7 +203,7 @@ main {
     color: #397153;
 }
 
-.reg {
+.reg-p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
 }
@@ -228,7 +245,9 @@ main {
     color: #fff;
 }
 
-/*SECTION THREE*/
+/***********************************************
+ * SECTION THREE - FIND WHAT YOU'RE LOOKING FOR *
+ ***********************************************/
 
 .section-three {
     width: 100%;
@@ -247,13 +266,15 @@ main {
     padding: 2em 0;
 }
 
+
+/*SECTION THREE - COLUMN ONE */
+
 .col-one {
     display: grid;
     grid-template-rows: auto;
     justify-content: center;
 }
 
-/*SEEDS TITLE*/
 .seeds {
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -285,6 +306,8 @@ main {
 .seeds-btn:hover {
     background-color: #19c17e;
 }
+
+/*SECTION THREE - COLUMN TWO*/
 
 .col-two {
     display: grid;
@@ -324,6 +347,8 @@ main {
     background-color: #19c17e;
 }
 
+/*SECTION THREE - COLUMN THREE*/
+
 .col-three {
     display: grid;
     grid-template-rows: auto;
@@ -362,7 +387,9 @@ main {
     background-color: #19c17e;
 }
 
-/* SECTION FOUR */
+/*****************************
+ * SECTION FOUR - FORM INPUT *
+ *****************************/
 
 .section-four {
     width: 100%;
@@ -446,7 +473,9 @@ fieldset {
     color: #19c17e;
 }
 
-/* FOOTER */
+/**********
+ * FOOTER *
+ **********/
 
 footer {
     background-color: #000;
@@ -490,6 +519,10 @@ footer {
 .foot-links-a:hover {
     color: #19c17e;
 }
+
+/*************
+ * COPYRIGHT *
+ *************/
 
 .copyright-container {
     font-family: 'Open Sans', sans-serif;
